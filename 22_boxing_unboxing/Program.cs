@@ -29,7 +29,7 @@ namespace _22_boxing_unboxing
             else
             {
                 Console.WriteLine("Not int and not double");
-            }
+            }++
             object[] arr = { "Hello", 123, 5.6 };
             // Визначити статичний методи у класі Program, який отримує масив типу object, i обчислює суму цілих чисел(int), кількість дробових (double,float,decimal) та конкатенує рядки. І виводить на екран результат
         }
