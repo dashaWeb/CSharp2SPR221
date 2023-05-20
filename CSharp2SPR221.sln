@@ -59,17 +59,21 @@ Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "25_Dictionary vs SortedDict
 EndProject
 Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "26_Generic class Stack", "26_Generic class Stack\26_Generic class Stack.csproj", "{984A0685-A432-4754-8781-55911CAA3F0D}"
 EndProject
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "27_Delegates", "27_Delegates\27_Delegates.csproj", "{DEB170C4-0003-4AFC-A16B-B68463A677F8}"
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "27_Delegates", "27_Delegates\27_Delegates.csproj", "{DEB170C4-0003-4AFC-A16B-B68463A677F8}"
 EndProject
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "28_delegate_calc", "28_delegate_calc\28_delegate_calc.csproj", "{87D6FC41-8BC7-4D00-9A67-3894103F1240}"
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "28_delegate_calc", "28_delegate_calc\28_delegate_calc.csproj", "{87D6FC41-8BC7-4D00-9A67-3894103F1240}"
 EndProject
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "29_delegate as param", "29_delegate as param\29_delegate as param.csproj", "{02696EC1-E16F-4F00-945D-6C1242508369}"
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "29_delegate as param", "29_delegate as param\29_delegate as param.csproj", "{02696EC1-E16F-4F00-945D-6C1242508369}"
 EndProject
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "30_Std delegates", "30_Std delegates\30_Std delegates.csproj", "{C099098A-6F17-4C6C-9A8E-C0595D5B82B6}"
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "30_Std delegates", "30_Std delegates\30_Std delegates.csproj", "{C099098A-6F17-4C6C-9A8E-C0595D5B82B6}"
 EndProject
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "31_Event", "31_Event\31_Event.csproj", "{3CA19154-1D48-4983-9276-982951E75CC9}"
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "31_Event", "31_Event\31_Event.csproj", "{3CA19154-1D48-4983-9276-982951E75CC9}"
 EndProject
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "32_EventHandler", "32_EventHandler\32_EventHandler.csproj", "{FDE2EF50-EFAD-4016-A35C-F4738E4D1416}"
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "32_EventHandler", "32_EventHandler\32_EventHandler.csproj", "{FDE2EF50-EFAD-4016-A35C-F4738E4D1416}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "33_FileStream Demo", "24_FileStream Demo\33_FileStream Demo.csproj", "{16C95A0A-A3C3-419E-AB88-10D8EFB171F3}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "34_Binary Writer Reader", "34_Binary Writer Reader\34_Binary Writer Reader.csproj", "{E4D84E9B-88FA-429C-A00F-D06B7AB347F4}"
 EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
@@ -213,6 +217,14 @@ Global
 		{FDE2EF50-EFAD-4016-A35C-F4738E4D1416}.Debug|Any CPU.Build.0 = Debug|Any CPU
 		{FDE2EF50-EFAD-4016-A35C-F4738E4D1416}.Release|Any CPU.ActiveCfg = Release|Any CPU
 		{FDE2EF50-EFAD-4016-A35C-F4738E4D1416}.Release|Any CPU.Build.0 = Release|Any CPU
+		{16C95A0A-A3C3-419E-AB88-10D8EFB171F3}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{16C95A0A-A3C3-419E-AB88-10D8EFB171F3}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{16C95A0A-A3C3-419E-AB88-10D8EFB171F3}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{16C95A0A-A3C3-419E-AB88-10D8EFB171F3}.Release|Any CPU.Build.0 = Release|Any CPU
+		{E4D84E9B-88FA-429C-A00F-D06B7AB347F4}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{E4D84E9B-88FA-429C-A00F-D06B7AB347F4}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{E4D84E9B-88FA-429C-A00F-D06B7AB347F4}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{E4D84E9B-88FA-429C-A00F-D06B7AB347F4}.Release|Any CPU.Build.0 = Release|Any CPU
 	EndGlobalSection
 	GlobalSection(SolutionProperties) = preSolution
 		HideSolutionNode = FALSE
