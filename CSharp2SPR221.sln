@@ -71,11 +71,21 @@ Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "31_Event", "31_Event\31_Eve
 EndProject
 Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "32_EventHandler", "32_EventHandler\32_EventHandler.csproj", "{FDE2EF50-EFAD-4016-A35C-F4738E4D1416}"
 EndProject
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "33_FileStream Demo", "24_FileStream Demo\33_FileStream Demo.csproj", "{16C95A0A-A3C3-419E-AB88-10D8EFB171F3}"
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "33_FileStream Demo", "24_FileStream Demo\33_FileStream Demo.csproj", "{16C95A0A-A3C3-419E-AB88-10D8EFB171F3}"
 EndProject
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "34_Binary Writer Reader", "34_Binary Writer Reader\34_Binary Writer Reader.csproj", "{E4D84E9B-88FA-429C-A00F-D06B7AB347F4}"
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "34_Binary Writer Reader", "34_Binary Writer Reader\34_Binary Writer Reader.csproj", "{E4D84E9B-88FA-429C-A00F-D06B7AB347F4}"
 EndProject
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "35_Stream write text", "35_Stream write text\35_Stream write text.csproj", "{51FE1B33-3DFA-41E7-9654-FA84F3B3045E}"
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "35_Stream write text", "35_Stream write text\35_Stream write text.csproj", "{51FE1B33-3DFA-41E7-9654-FA84F3B3045E}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "36_Binary serializer", "36_Binary serializer\36_Binary serializer.csproj", "{CFC0BD36-1D5D-4C04-AB93-A9F36D7E1629}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "37_Xml", "37_Xml\37_Xml.csproj", "{C84704D4-4E3F-4462-B73C-B0E6CFA694DE}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "38_JSON", "38_JSON\38_JSON.csproj", "{942C06C1-B45D-475B-9D56-833A51302568}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "39_File and FoleInfo", "39_File and FoleInfo\39_File and FoleInfo.csproj", "{F7330704-3FD7-431A-A3D8-B6C55ABA61BF}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "40_Directory and DirectoryInfo", "40_Directory and DirectoryInfo\40_Directory and DirectoryInfo.csproj", "{DA753F51-B3BA-492A-825F-A9B18C0623C0}"
 EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
@@ -231,6 +241,26 @@ Global
 		{51FE1B33-3DFA-41E7-9654-FA84F3B3045E}.Debug|Any CPU.Build.0 = Debug|Any CPU
 		{51FE1B33-3DFA-41E7-9654-FA84F3B3045E}.Release|Any CPU.ActiveCfg = Release|Any CPU
 		{51FE1B33-3DFA-41E7-9654-FA84F3B3045E}.Release|Any CPU.Build.0 = Release|Any CPU
+		{CFC0BD36-1D5D-4C04-AB93-A9F36D7E1629}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{CFC0BD36-1D5D-4C04-AB93-A9F36D7E1629}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{CFC0BD36-1D5D-4C04-AB93-A9F36D7E1629}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{CFC0BD36-1D5D-4C04-AB93-A9F36D7E1629}.Release|Any CPU.Build.0 = Release|Any CPU
+		{C84704D4-4E3F-4462-B73C-B0E6CFA694DE}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{C84704D4-4E3F-4462-B73C-B0E6CFA694DE}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{C84704D4-4E3F-4462-B73C-B0E6CFA694DE}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{C84704D4-4E3F-4462-B73C-B0E6CFA694DE}.Release|Any CPU.Build.0 = Release|Any CPU
+		{942C06C1-B45D-475B-9D56-833A51302568}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{942C06C1-B45D-475B-9D56-833A51302568}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{942C06C1-B45D-475B-9D56-833A51302568}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{942C06C1-B45D-475B-9D56-833A51302568}.Release|Any CPU.Build.0 = Release|Any CPU
+		{F7330704-3FD7-431A-A3D8-B6C55ABA61BF}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{F7330704-3FD7-431A-A3D8-B6C55ABA61BF}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{F7330704-3FD7-431A-A3D8-B6C55ABA61BF}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{F7330704-3FD7-431A-A3D8-B6C55ABA61BF}.Release|Any CPU.Build.0 = Release|Any CPU
+		{DA753F51-B3BA-492A-825F-A9B18C0623C0}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{DA753F51-B3BA-492A-825F-A9B18C0623C0}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{DA753F51-B3BA-492A-825F-A9B18C0623C0}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{DA753F51-B3BA-492A-825F-A9B18C0623C0}.Release|Any CPU.Build.0 = Release|Any CPU
 	EndGlobalSection
 	GlobalSection(SolutionProperties) = preSolution
 		HideSolutionNode = FALSE
